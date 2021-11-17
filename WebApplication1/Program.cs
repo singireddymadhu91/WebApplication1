@@ -14,6 +14,8 @@ namespace WebApplication1
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
+            Console.WriteLine("Madhu");
+            Console.WriteLine("Hi venky");
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
